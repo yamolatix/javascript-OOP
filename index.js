@@ -5,6 +5,7 @@ console.log(typeof "hello world"); //string
 console.log(typeof 100); //number
 console.log(typeof true); //boolean
 
+//
 console.log(typeof {}); //object
 console.log(typeof []); //object
 
@@ -23,8 +24,10 @@ let name = "Ryan";
 let lastname = "Ray";
 let age = 30;
 
-const user = {
-    name: "Ryan",
+// Object Literal
+const objectLiteral = {
+//  key     value
+    name: "Ryan", // properties - propiedades
     lastname: "Ray",
     age: 30,
     hobbies: ["read", "programming", "run"],
@@ -32,6 +35,19 @@ const user = {
         street: "Abbey Road",
         city: "london"
     }
-}
+};
 
-console.log("USER", user);
+// Métodos - Object Methods
+// Las funcionalidades que tiene el punto neurálgico del objeto son acciones. A esas acciones bajo el Paradigma Orientado a Objetos se los conoce como "Métodos" y en código se conoce como funciones, para ejecuar su funcionalidad. 
+
+const metodos = {
+//  key     value
+    name: "Ryan", // properties - propiedades
+    lastname: "Ray",
+    age: 30,
+    fullName() {
+        return "Ryan Ray"
+    }
+};
+
+console.log(metodos.fullName());

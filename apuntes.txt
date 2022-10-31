@@ -3,5 +3,3 @@ Object Oriented Programming
 Los paradigmas de como resolver los problemas o... encontrar soluciones. Depende mucho de las personas. Hay muchas maneras de llegar al mismo puerto. 
 Por eso se acuerda un modelo "típico" entre varias personas en cual es la mejor manera de resolver mpultiples problemas basado en una serie de recomendaciones.
 Esto se conoce como paradigma. Por eso es que hay que tener muchos paradigmas a tener en cuenta a la hora de escribir código.
-
-Objects

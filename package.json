@@ -1,7 +1,7 @@
 {
   "name": "javascript-oop",
   "version": "1.0.0",
-  "description": "This repo is a bunch of examples about Object Orientend programming in Javascript",
+  "description": "- Basic Knowledge of Javascript Syntax",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
